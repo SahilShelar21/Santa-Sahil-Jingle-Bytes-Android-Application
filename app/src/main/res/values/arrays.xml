@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="package_options">
+        <item>NORTH INDIA PACKAGE</item>
+        <item>SOUTH INDIA PACKAGE</item>
+        <item>EAST INDIA PACKAGE</item>
+        <item>WEST INDIA PACKAGE</item>
+    </string-array>
+    <string-array name="packages_array">
+        <item>QUTUB MINAR</item>
+        <item>GARDEN OF 5 SENSE</item>
+        <item>DELHI ZOO</item>
+        <item>HUMAYUNS TOMB</item>
+        <item>SHILONG</item>
+        <item>MEGHALAYA</item>
+        <item>DARJELING</item>
+        <item>SIKKIM</item>
+        <item>ZIRO</item>
+        <item>OOTY</item>
+        <item>KANYAKUMARI</item>
+        <item>MADURAI</item>
+        <item>RAMESHWARAM</item>
+        <item>PANJIM</item>
+        <item>CALANGUTE</item>
+        <item>CANACONA</item>
+        <item>BARDEZ</item>
+    </string-array>
+
+    <string-array name="payment_methods_array">payment</string-array>
+
+</resources>

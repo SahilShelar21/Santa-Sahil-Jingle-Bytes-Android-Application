@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/normal">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="FILL THE CREDENTIALS TO CONFIRM YOUR ORDER FROM SANTA SAHIL"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+        android:background="@drawable/input_bg"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/userAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your address"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_bg"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/userMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your mobile number"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+        android:background="@drawable/input_bg"
+        android:layout_marginTop="10dp"
+        android:padding="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkClothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp" />
+
+    <CheckBox
+        android:id="@+id/checkToys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toys"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/checkChocolates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolates"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/checkShoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoes"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/generateOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Order"
+        android:backgroundTint="#E82561"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Santa Sahil</string>
+    <string name="select_package">
+        <item>NORTH INDIA PACKAGE</item>
+        <item>SOUTH INDIA PACKAGE</item>
+        <item>EAST INDIA PACKAGE</item>
+        <item>WEST INDIA PACKAGE</item>
+    </string>
+    <string name="submit">Submit</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="santa_sahil">SAnTA SAhiL</string>
+    <string name="Santa_Sahil" />
+</resources>
